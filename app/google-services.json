@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243082463895",
+    "project_id": "kahawashop-7e7ad",
+    "storage_bucket": "kahawashop-7e7ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243082463895:android:3c674a238186b29d18f7d2",
+        "android_client_info": {
+          "package_name": "com.kahawashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243082463895-btu6bvu9abgc1nmg088n3kkp9cmn3rek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1B3osVfA-c-YFi2dUS0A0ROPxU2d890o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243082463895-btu6bvu9abgc1nmg088n3kkp9cmn3rek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

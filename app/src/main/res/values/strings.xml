@@ -1,0 +1,16 @@
+<resources>
+    <string name="COFFEE_SHOP">kahawashop</string>
+    <string name="chapati">chapati</string>
+    <string name="Githeri">Githeri</string>
+    <string name="titleone">titleone</string>
+    <string name="Order">ORDER</string>
+    <string name="Your_order">Your order</string>
+    <string name="Mandazi">Mandazi</string>
+    <string name="Toast">Toast</string>
+    <string name="No._of_coffee">No of coffee</string>
+    <string name="titletwo">titletwo</string>
+    <string name="plus_btn">+</string>
+    <string name="minus_btn">-</string>
+    <string name="zero">0</string>
+
+</resources>

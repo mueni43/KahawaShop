@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/COFFEE_SHOP"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:id="@+id/titleone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/No._of_coffee"
+        android:id="@+id/noOfCoffee"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:gravity="start"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="btnMinus"
+            android:text="@string/minus_btn"
+            android:textColor="@color/black"
+            android:textSize="88sp"
+            tools:ignore="UsingOnClickInXml">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/titletwo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/zero"
+            android:textColor="@color/black"
+            android:textSize="88sp"
+            tools:ignore="TextSizeCheck">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="btnPlus"
+            android:text="@string/plus_btn"
+            android:textColor="@color/black"
+            android:textSize="88sp"
+            tools:ignore="UsingOnClickInXml,TextSizeCheck">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#8467D"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chapati"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            tools:ignore="TextContrastCheck" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mandazi"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            tools:ignore="TextContrastCheck" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Githeri"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            tools:ignore="TextContrastCheck" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Toast"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="@string/Your_order"
+        android:id="@+id/orderAmount"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnOrder"
+        android:text="@string/Order"
+        android:textColor="@color/black"
+
+        android:textSize="72dp"
+        tools:ignore="SpUsage,UsingOnClickInXml,VisualLintButtonSize">
+
+    </Button>
+
+</LinearLayout>
